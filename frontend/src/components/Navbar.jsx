@@ -32,6 +32,7 @@ const Navbar = () => {
               </Link>
             </div>
           )}
+          
 
           <div className="flex items-center gap-3 sm:gap-4 ml-auto">
             <Link to={"/notifications"}>

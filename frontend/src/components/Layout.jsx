@@ -6,6 +6,7 @@ const Layout = ({ children, showSidebar = false }) => {
     <div className="min-h-screen">
       <div className="flex">
         {showSidebar && <Sidebar />}
+        {/* {false && <Sidebar />} */}
 
         <div className="flex-1 flex flex-col">
           <Navbar />
